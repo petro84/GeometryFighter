@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC5C24ED20C60E83002A1FAB /* Trail.scnp in Resources */ = {isa = PBXBuildFile; fileRef = DC5C24EB20C60E83002A1FAB /* Trail.scnp */; };
+		DC5C24F020C61E73002A1FAB /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = DC5C24EE20C61E73002A1FAB /* spark.png */; };
+		DC5C24F520C760FF002A1FAB /* Explode.scnp in Resources */ = {isa = PBXBuildFile; fileRef = DC5C24F420C760FF002A1FAB /* Explode.scnp */; };
 		DCEB1FCD20BF649000F60A44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEB1FCC20BF649000F60A44 /* AppDelegate.swift */; };
 		DCEB1FD120BF649000F60A44 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEB1FD020BF649000F60A44 /* GameViewController.swift */; };
 		DCEB1FD420BF649000F60A44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCEB1FD220BF649000F60A44 /* Main.storyboard */; };
@@ -24,6 +27,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC5C24EB20C60E83002A1FAB /* Trail.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Trail.scnp; sourceTree = "<group>"; };
+		DC5C24EE20C61E73002A1FAB /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		DC5C24F420C760FF002A1FAB /* Explode.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Explode.scnp; sourceTree = "<group>"; };
 		DCEB1FC920BF649000F60A44 /* GeometryFighter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometryFighter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCEB1FCC20BF649000F60A44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCEB1FD020BF649000F60A44 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +59,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC5C24E920C60E34002A1FAB /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				DC5C24EB20C60E83002A1FAB /* Trail.scnp */,
+				DC5C24EE20C61E73002A1FAB /* spark.png */,
+				DC5C24F420C760FF002A1FAB /* Explode.scnp */,
+			);
+			path = Particles;
+			sourceTree = "<group>";
+		};
 		DCEB1FC020BF649000F60A44 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +88,7 @@
 		DCEB1FCB20BF649000F60A44 /* GeometryFighter */ = {
 			isa = PBXGroup;
 			children = (
+				DC5C24E920C60E34002A1FAB /* Particles */,
 				DCEB1FE420C20B2E00F60A44 /* GameUtils */,
 				DCEB1FCC20BF649000F60A44 /* AppDelegate.swift */,
 				DCEB1FD520BF649400F60A44 /* Assets.xcassets */,
@@ -158,8 +175,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCEB1FD920BF649400F60A44 /* LaunchScreen.storyboard in Resources */,
+				DC5C24F020C61E73002A1FAB /* spark.png in Resources */,
 				DCEB1FD620BF649400F60A44 /* Assets.xcassets in Resources */,
 				DCEB1FD420BF649000F60A44 /* Main.storyboard in Resources */,
+				DC5C24ED20C60E83002A1FAB /* Trail.scnp in Resources */,
+				DC5C24F520C760FF002A1FAB /* Explode.scnp in Resources */,
 				DCEB1FE120BF6B3100F60A44 /* GeometryFighter.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
